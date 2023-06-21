@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/crm-project/static/css/main.afdcac66.css",
+    "main.js": "/crm-project/static/js/main.8bd81921.js",
+    "static/media/logoSkilla.svg": "/crm-project/static/media/logoSkilla.c02089f1b3fda3c36d900ed693700252.svg",
+    "index.html": "/crm-project/index.html",
+    "main.afdcac66.css.map": "/crm-project/static/css/main.afdcac66.css.map",
+    "main.8bd81921.js.map": "/crm-project/static/js/main.8bd81921.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afdcac66.css",
+    "static/js/main.8bd81921.js"
+  ]
+}
