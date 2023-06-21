@@ -1,0 +1,18 @@
+.container {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.arrow {
+    color: var(--text-header);
+    margin-left: 8px;
+}
+
+.arrow:active {
+    color: var(--main-blue);
+}
+
+.select span {
+    margin-right: 8px;
+    color: var(--text-header);
+}

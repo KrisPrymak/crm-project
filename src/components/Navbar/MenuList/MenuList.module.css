@@ -1,0 +1,57 @@
+.menuList {
+    margin-bottom: 64px;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background-color: var(--grey-hover);
+}
+
+.svg {
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+  margin-left: 14px;
+}
+
+.menuItem__text {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 14px 0;
+}
+
+.active svg {
+  color: var(--white);
+}
+
+.active {
+  background-color: var(--grey-hover);
+}
+
+.active .menuItem__text {
+  color: var(--white);
+}
+
+.active::after {
+  content: "";
+  background: var(--yellow);
+  box-shadow: 0px 3px 8px rgba(237, 218, 1, 0.5);
+  width: 8px;
+  height: 8px;
+  border-radius: 99px;
+  margin-right: 12px;
+  position: absolute;
+  right: 12px;
+}
+
+.active::before {
+  content: '';
+  display: block;
+  width: 3px;
+  height: 52px;
+  background-color: var(--main-blue);
+}

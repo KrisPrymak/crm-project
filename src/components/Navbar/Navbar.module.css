@@ -1,0 +1,18 @@
+.navbar {
+    background-color: var(--dark-blue);
+    width: 16%;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 12px;
+    margin-bottom: 32px;
+}
+
+.buttons {
+    padding: 0 20px;
+}
+
+.buttons button:first-child {
+    margin-bottom: 32px;
+}

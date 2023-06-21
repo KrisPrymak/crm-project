@@ -1,0 +1,25 @@
+.balance {
+    background-color: var(--white);
+    color: var(--text-header);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 48px;
+    align-items: center;
+    padding: 10px 12px;
+}
+
+.balance_summ {
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #000000;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.balance__addIcon {
+    color: var(--main-blue);
+    cursor: pointer;
+}

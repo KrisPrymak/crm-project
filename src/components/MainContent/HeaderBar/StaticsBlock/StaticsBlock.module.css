@@ -1,0 +1,57 @@
+.statics {
+    display: flex;
+    max-width: 595px;
+    gap: 50px;
+}
+
+.statics__text, .description {
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.statics__progress_green, .statics__progress_yellow, .statics__progress_red{
+    position: relative;
+    width: 156px;
+    height: 6px;
+    background-color: var(--progress-grey);
+    border-radius: 12px;
+}
+
+.statics__progress_green::before, .statics__progress_yellow::before, .statics__progress_red::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 12px;
+    width: 40%;
+}
+
+.statics__progress_green::before {
+    background-color: var(--green);
+}
+
+.statics__progress_yellow::before {
+    background-color: var(--yellow);
+}
+
+.statics__progress_red::before {
+    background-color: var(--red);
+}
+
+.description {
+    margin: 0 7px;
+}
+
+.green {
+    color: var(--green);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.red {
+    color: var(--red);  
+}

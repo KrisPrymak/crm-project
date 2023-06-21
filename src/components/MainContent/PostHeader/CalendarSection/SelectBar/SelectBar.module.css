@@ -1,0 +1,15 @@
+.item {
+    color: #899CB1;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #122945;
+    background: rgba(0, 44, 251, .13);
+    border-radius: 0px;
+}
+
+.active {
+    color: var(--main-blue);
+}

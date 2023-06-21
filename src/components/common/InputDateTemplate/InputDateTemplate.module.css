@@ -1,0 +1,14 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.input {
+  border: none;
+  width: 40%;
+  font-size: 10px;
+  padding: 0;
+}
+
+.input::placeholder {
+  color: #adbfdf;
+}

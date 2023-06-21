@@ -1,0 +1,11 @@
+.search {
+    font-weight: 400;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+}
+
+.search__icon {
+    color: var(--text-header);
+    margin-right: 12px;
+}

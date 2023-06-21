@@ -1,0 +1,13 @@
+.mainContent {
+    width: 88%;
+    background-color: var(--background-color);
+}
+
+.mainContent__container {
+    max-width: 1680px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
